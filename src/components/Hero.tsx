@@ -29,7 +29,7 @@ const Hero = () => {
                 height="170"
                 width="170"
                 alt="cursor"
-                className=""
+                className="h-auto w-auto"
                 draggable="false"
                 />
             </motion.div>
@@ -55,6 +55,7 @@ const Hero = () => {
         </p>
 
         <Image 
+        priority={true}
         src={profilepicmasha}
         alt="profile picture"
         className="mt-7 h-auto w-auto mx-auto"
