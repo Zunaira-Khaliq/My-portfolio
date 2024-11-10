@@ -31,6 +31,7 @@ const Hero = () => {
                 alt="cursor"
                 className="h-auto w-auto"
                 draggable="false"
+                priority
                 />
             </motion.div>
 
@@ -45,6 +46,7 @@ const Hero = () => {
                 alt="cursor"
                 className=""
                 draggable="false"
+                priority
                 />
             </motion.div>
 

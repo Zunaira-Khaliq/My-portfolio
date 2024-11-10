@@ -21,7 +21,7 @@ const About = () => {
         <div className="w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div> 
            <div className="flex flex-row p-6">
-              <Image src={book} alt="book" className="w-auto h-[130px]"/>
+              <Image src={book} alt="book" className="w-auto h-[130px]" priority/>
               <div className="flex flex-col mt-4">
                 <h2 className="text-2xl font-bold text-white/80">Education</h2>
                 <p className="text-lg text-white/70 mt-2 ">Completed Intermediate in Commerce, now focused on advancing technical skills in web development, like Next.js, and Tailwind CSS.</p>
@@ -32,7 +32,7 @@ const About = () => {
         <div className="w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>  
            <div className="flex flex-row p-6">
-              <Image src={finance} alt="finance" className="w-auto h-[130px]"/>
+              <Image src={finance} alt="finance" className="w-auto h-[130px]" priority/>
               <div className="flex flex-col mt-4">
                 <h2 className="text-2xl font-bold text-white/80">Problem-Solving</h2>
                 <p className="text-lg text-white/70 mt-2 ">I tackle challenges with a logical and systematic approach.</p>
@@ -43,7 +43,7 @@ const About = () => {
         <div className="w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>  
            <div className="flex flex-row p-6">
-              <Image src={card} alt="card" className="w-auto h-[130px]"/>
+              <Image src={card} alt="card" className="w-auto h-[130px]" priority/>
               <div className="flex flex-col mt-4">
                 <h2 className="text-2xl font-bold text-white/80">Experience</h2>
                 <p className="text-lg text-white/70 mt-2 ">I have a diverse portfolio of projects.</p>
@@ -54,7 +54,7 @@ const About = () => {
         <div className="w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>  
            <div className="flex flex-row p-6">
-              <Image src={pc} alt="pc" className="w-auto h-[130px]"/>
+              <Image src={pc} alt="pc" className="w-auto h-[130px]" priority/>
               <div className="flex flex-col mt-4">
                 <h2 className="text-2xl font-bold text-white/80">Technical Skills</h2>
                 <p className="text-lg text-white/70 mt-2 ">As a Full-Stack Developer, I specialize in HTML, CSS, JavaScript, TypeScript, Tailwind CSS, and Next.js, with a strong focus on building responsive and user-friendly interfaces that deliver seamless user experiences.</p>
