@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 import { motion } from 'framer-motion';
-import { image } from "framer-motion/client";
+
 
 const navLinks = [
     {title: "Home", path: "#hero"},
